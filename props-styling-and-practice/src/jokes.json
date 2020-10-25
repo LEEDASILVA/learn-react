@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "question": "What is the name of the artist who painted ‘Mona Lisa’?",
+        "punchLine": "Leonardo Da Vinv"
+    },
+    {
+        "id": 2,
+        "punchLine": "What did the left eye say to the right eye? Between you and me, something smells."
+    },
+    {
+        "id": 3,
+        "question": "In which year did the Beatles Band begin?",
+        "punchLine": "1956"
+    },
+    {
+        "id": 4,
+        "question": "Who died after drinking a cup of poisoned hemlock?",
+        "punchLine": "Socrates"
+    },
+    {
+        "id": 5,
+        "question": "who is the founder of modern chemistry?",
+        "punchLine": "Antoine Lavoisier"
+    },
+    {
+        "id": 6,
+        "question": "which country was called ‘the Heart of Muslim World’ by the President of Libya?",
+        "punchLine": "Pakistan"
+    }
+]
