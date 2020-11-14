@@ -10,10 +10,10 @@ class App extends React.Component {
   }
 
   // event
-  // note: you must not modify directelly the **state value**
-  // instade you can use setState from the Component. so something like this:
+  // note: you must not modify directly the **state value**
+  // instated you can use setState from the Component. so something like this:
   handle = () => {
-    // this.setState({ count: 1 }) -> this will giveerro
+    // this.setState({ count: 1 }) -> this will give error
     // you will have to bind your method. this can be done
     // by putting this in the constructor, `this.handle = this.handle.bind(this)`
     // binding will make sure that the `handle` method is bind to the context of this
@@ -24,10 +24,10 @@ class App extends React.Component {
 
     // if we need or care about the previous state we must do:
     // use the previous version of state
-    // then create the new version of state be adding just one to the previous value of state
+    // then create the new version of state by adding just one to the previous value of state
     // do not do ++, if you do this you will have the same problem as above
     this.setState((previousState) => {
-      return { count: previousState.count + 2 }
+      return { count: previousState.count + 1 }
     })
   }
 
